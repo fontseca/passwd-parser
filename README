@@ -1,0 +1,33 @@
+Parse users inside the `/etc/passwd' file.
+
+Chunk of possible output:
+
+  ...
+  {
+    Name:      `kernoops'
+    Password:  `x'
+    UID:       `113'
+    GID:       `65534'
+    Info:      `Kernel Oops Tracking Daemon,,,'
+    Home dir:  `/'
+    Shell dir: `/usr/sbin/nologin'
+  }
+  {
+    Name:      `fwupd-refresh'
+    Password:  `x'
+    UID:       `129'
+    GID:       `139'
+    Info:      `fwupd'
+    Home dir:  `/nonexistent'
+    Shell dir: `/bin/false'
+  }
+  {
+    Name:      `fwupd-refresh'
+    Password:  `x'
+    UID:       `129'
+    GID:       `139'
+    Info:      `fwupd'
+    Home dir:  `/nonexistent'
+    Shell dir: `/bin/false'
+  }
+  ...
